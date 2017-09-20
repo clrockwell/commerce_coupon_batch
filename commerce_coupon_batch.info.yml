@@ -1,0 +1,5 @@
+name: Commerce Coupon Batch
+type: module
+description: Create coupons in bulk for commerce promotions
+core: 8.x
+package: Custom

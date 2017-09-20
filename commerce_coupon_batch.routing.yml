@@ -1,0 +1,9 @@
+commerce_coupon_batch.batch_form:
+  path: '/promotion/{commerce_promotion}/coupons/add-bulk'
+  defaults:
+    _form: '\Drupal\commerce_coupon_batch\Form\CouponBatchForm'
+    _title: 'CouponBatchForm'
+  requirements:
+    _permission: 'administer commerce_promotion'
+  options:
+    _admin_route: TRUE

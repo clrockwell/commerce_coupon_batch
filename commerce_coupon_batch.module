@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains commerce_coupon_batch.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function commerce_coupon_batch_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the commerce_coupon_batch module.
+    case 'help.page.commerce_coupon_batch':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Create coupons in bulk for commerce promotions') . '</p>';
+      return $output;
+
+    default:
+  }
+}

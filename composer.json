@@ -1,0 +1,14 @@
+{
+  "name": "drupal/commerce_coupon_batch",
+  "type": "drupal-module",
+  "description": "Create coupons in bulk for commerce promotions",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/commerce_coupon_batch",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/commerce_coupon_batch",
+    "source": "http://cgit.drupalcode.org/commerce_coupon_batch"
+  },
+  "require": { }
+}

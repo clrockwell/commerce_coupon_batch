@@ -1,0 +1,6 @@
+commerce_coupon_batch.add_bulk:
+  route_name: commerce_coupon_batch.batch_form
+  title: 'Bulk add coupons'
+  weight: 2
+  appears_on:
+    - entity.commerce_promotion_coupon.collection
